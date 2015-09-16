@@ -10,12 +10,14 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/note_name"
         android:id="@+id/noteName" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textMultiLine"
+        android:hint="@string/note_body"
         android:ems="10"
         android:id="@+id/noteBody" />
 </LinearLayout>
